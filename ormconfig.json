@@ -1,0 +1,18 @@
+{
+  "type": "postgres",
+  "host": "127.0.0.1",
+  "port": 5432,
+  "username": "postgres",
+  "password": "123",
+  "database": "desafio_1sti",
+  "entities": [
+    null
+  ],
+  "migrationsTableName": "migration",
+  "migrations": [
+    "src/migration/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "src/migration"
+  }
+}
